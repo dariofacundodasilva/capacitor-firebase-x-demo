@@ -1,9 +1,19 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Tab Two
-    </ion-title>
+  <ion-toolbar color="{{ global.colorMenu }}">
+    <ion-title>RemoteConfig</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+  <ion-card class="welcome-card">
+    <h3>Configuración Remota - Firebase</h3>
+    <img src="{{ global.displayImagen }}" alt=""/>
+  </ion-card> 
+  <ion-card class="welcome-card">
+    <h3>Configuración Remota - Firebase Secundario</h3>
+    <img src="{{ global.displayImagenSecondary }}" alt=""/>
+  </ion-card>    
+</ion-content>

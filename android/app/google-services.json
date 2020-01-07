@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "439451701554",
+    "firebase_url": "https://capapp-13e06.firebaseio.com",
+    "project_id": "capapp-13e06",
+    "storage_bucket": "capapp-13e06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439451701554:android:bdca7f1ad41c1bf0dd072b",
+        "android_client_info": {
+          "package_name": "io.ionic.capapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "439451701554-hmq3ginkgirefqic0p4kgnpsqoit40n3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.ionic.capapp",
+            "certificate_hash": "a5bfba09935bbdc2ea72f113645989b6be6cb319"
+          }
+        },
+        {
+          "client_id": "439451701554-jt9ma4ib9c2fkft0nrbabnhfj1bofhiq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_kBsSfW3SGdTvBRnQP4aUXQt3Ws9Q728"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "439451701554-jt9ma4ib9c2fkft0nrbabnhfj1bofhiq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

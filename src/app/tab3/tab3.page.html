@@ -1,9 +1,13 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Tab Three
+      Crashlytics
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content padding>
+  <ion-button color="danger" (click)="crash()">Force a Crash</ion-button>
+  <ion-button color="warning" (click)="logException()">logException</ion-button>
+  <ion-button color="primary" (click)="log()">log</ion-button>
+</ion-content>
